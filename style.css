@@ -1,9 +1,6 @@
-@media screen and (max-width: 600px) {
-    div#headImage {
-    }
-}
-@media screen and (max-width: 600px) {
-    div.someText {
+@media screen and (max-width: 450px) {
+    div#headImage, div.someText {
+        width: 100%;
     }
 }
 div.someText, div#headImage {
