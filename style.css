@@ -1,4 +1,4 @@
-@media screen and (max-width: 450px) {
+@media all and (max-width: 450px) {
     div#headImage, div.someText {
         width: 100%;
     }
