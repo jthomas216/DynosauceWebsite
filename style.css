@@ -1,15 +1,17 @@
 @media screen and (max-width: 600px) {
     div#headImage {
-        margin-left:auto;
-        margin-right:auto
     }
 }
 @media screen and (max-width: 600px) {
     div.someText {
-        margin-left:auto;
-        margin-right:auto
     }
 }
+div.someText, div#headImage {
+        margin-left:auto;
+        margin-right:auto;
+    width:450px;
+    }
+
 body {
     font-size: 18px;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
